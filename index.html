@@ -2,5 +2,12 @@
 var url=window.location.href;
 var param=url.split("#&@$");
 //window.location="https://jx.128sp.com/jxjx/?url="+param[2];
-alert(param[0]);
+switch (param[0]){
+  case "http://vip1.lmd5.com/" :
+    window.location="https://jx.128sp.com/jxjx/?url="+param[2];
+    break;
+  case "http://vip2.lmd5.com/" :
+    window.location="11111111"+param[2];
+    break;
+}
 </script>
